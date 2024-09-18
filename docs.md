@@ -74,4 +74,20 @@ b = int(input("Nhập vào số b: "))
 a, b = b, a
 print(f"a = {a}, b = {b}")
 ````
+
+##### 18/09/2024
+> Kiểu dữ liệu danh sách (List)
+> - K/n: Là tập hợp 1 hoặc nhiều phần tử có thể có các giá trị thuộc các kiểu dữ liệu khác nhau
+> - Đặc điểm: 
+>> + Các phần tử được đặt trong dấu ngoặc vuông '[]'
+>> + Các phần tử phân cách với nhau bằng dấu phẩy ','
+>> + Danh sách có khả năng chứa mọi giá trị, đối tượng trong Python
+>> + Danh sách có thể chưa một danh sách khác như một phần tử của nó
+> ví dụ:
+````py
+l1 = [1, 2, 3, 4, 5]
+l2 = [1, "a", 3.14, True, [1, 2, 3]]
+l3 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+````
+
 > //

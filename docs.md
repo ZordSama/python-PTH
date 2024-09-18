@@ -103,8 +103,9 @@
 >> + Các phần tử được đặt trong dấu ngoặc vuông '[]'
 >> + Các phần tử phân cách với nhau bằng dấu phẩy ','
 >> + Danh sách có khả năng chứa mọi giá trị, đối tượng trong Python
->> + Danh sách có thể chưa một danh sách khác như một phần tử của nó
-> ví dụ:
+>> + Danh sách có thể chưa một danh sách khác như một phần tử của nó  
+>
+> + ví dụ:
 >
 > ````py
 > l1 = [1, 2, 3, 4, 5]
@@ -112,4 +113,37 @@
 > l3 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 > ````
 >
+> *Tạo danh sách
+>
+>> 1. Sử dụng lệnh gán
+>> 2. Sử dụng hàm list()
+>
+> + VD:
+>
+> ````py
+> l1 = [1, 2, 3, 4, 5]
+> l2 = list((1, 2, 3, 4, 5))
+> ````
+>
+> *Các toán tử với danh sách
+>
+> + Toán tử +: nối 2 danh sách lại với nhau
+> + Toán tử *: lặp lại danh sách n lần
+> + Toán tử in: kiểm tra 1 phần tử có trong danh sách hay không
+> + Toán tử ==: so sánh 2 danh sách có bằng nhau hay không
+>
+> *Cách truy suất phần tử của danh sách
+>
+> 1. Truy suất 1 phần tử của danh sách
+>    + tên_danh_sách[index]
+> 2. Truy suất nhiều phần tử của danh sách
+>    + tên_danh_sách[start:stop:step]
+>
+> *Các hàm làm việc với danh sách
+>
+> + len(): trả về số lượng phần tử của danh sách
+> + max(): trả về phần tử lớn nhất của danh sách
+> + min(): trả về phần tử nhỏ nhất của danh sách
+> + sum(): trả về tổng của các phần tử của danh sách
+> + sorted(): trả về danh sách đã được sắp xếp
 > //

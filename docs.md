@@ -4,7 +4,11 @@
 
 ### Q1: Nêu 3 điểm mấu chốt về quá trình hình thành và phát triển của Python
 
-> -Nguồn gốc: Python được tạo ra bởi Guido van Rossum vào cuối những năm 1980 với mục tiêu tạo ra một ngôn ngữ dễ học, dễ sử dụng và mạnh mẽ.  
+> -Nguồn gốc:   
+>> +Python được tạo ra bởi Guido van Rossum vào cuối những năm 1990
+>> +Phiên bản 2x được phát hành vào năm 2000, và phiên bản 3x được phát hành vào năm 2008
+>>
+
 > -Phát triển: Qua nhiều phiên bản, Python ngày càng hoàn thiện với nhiều tính năng mới và cải tiến. Phiên bản Python 3 là phiên bản chính thức và được phát triển tích cực hiện nay.  
 > -Phổ biến: Nhờ cú pháp rõ ràng, thư viện phong phú và cộng đồng lớn, Python được sử dụng rộng rãi trong nhiều lĩnh vực như khoa học dữ liệu, học máy, phát triển web,...
 
@@ -44,5 +48,30 @@
 >func()
 >print(x)
 >````
-> //
+> //  
 
+##### 28/08/2024
+> Viết CT nhập vào tt của 1 sinh viên (họ tên, giới tính, ngày sinh, email, quê quán, hệ số môn ngành) Hiển thị TT của HS đó, mỗi TT/dòng
+````py
+name = input("Nhập vào tên sinh viên: ")
+gender = input("Nhập vào giới tính: ")
+dob = input("Nhập vào ngày sinh: ")
+email = input("Nhập vào email: ")
+hometown = input("Nhập vào quê quán: ")
+gpa = input("Nhập vào hệ số môn ngành: ")
+print("Tên sinh viên: ", name)
+print("Giới tính: ", gender)
+print("Ngày sinh: ", dob)
+print("Email: ", email)
+print("Quê quán: ", hometown)
+print("Hệ số môn ngành: ", gpa)
+````
+> //  
+> Viết CT nhập vào 2 số, hoán đổi chúng và hiển thị trên 1 dòng
+````py
+a = int(input("Nhập vào số a: "))
+b = int(input("Nhập vào số b: "))
+a, b = b, a
+print(f"a = {a}, b = {b}")
+````
+> //

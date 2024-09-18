@@ -1,6 +1,5 @@
-print("Chào bạn")
-print("Xin chào", input("Nhập tên của bạn: "))
-
-soA = input("Nhập số A: ")
-soB = input("Nhập số B: ")
-print("Tổng của", soA, "và", soB, "là:", int(soA) + int(soB))
+a = int(input("Nhập vào số a: "))
+b = int(input("Nhập vào số b: "))
+a, b = b, a
+print("Số a sau khi hoán đổi: ", a)
+print("Số b sau khi hoán đổi: ", b)
